@@ -29,7 +29,7 @@ calculates average salary, and tracks file processing history.
 Alternatively, run from a terminal:
 
 ```powershell
-$env:FILE_API_KEY = "local-demo-key-change-me"
+$env:FILE_API_KEY = "gq-api-key"
 dotnet restore
 dotnet build
 dotnet run --urls http://localhost:5000
@@ -41,7 +41,7 @@ Use HTTPS for deployments and real environments.
 
 All /api endpoints require this header:
 
-X-API-Key: local-demo-key-change-me
+X-API-Key: gq-api-key
 
 Requests without a valid key return HTTP 401.
 
