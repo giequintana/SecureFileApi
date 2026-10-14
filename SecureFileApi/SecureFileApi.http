@@ -1,0 +1,6 @@
+@SecureFileApi_HostAddress = http://localhost:5229
+
+GET {{SecureFileApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
